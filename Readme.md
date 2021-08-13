@@ -1,6 +1,6 @@
 # JS Project Proposal: Penalty Shootout Game
 # Background 
-### Penalty Shoutout is a part of soccer game when two teams finish the game with a draw, they play a round of penalty shootout each team has five attempts and the team who scores more win the game, this project will be about this part. A player will have six attempts to score against a goalkeeper who will try to catch the ball by moving randomly to the left or right side. To win the game, the player should score all the attempts
+#### Penalty Shoutout is a part of soccer game when two teams finish the game with a draw, they play a round of penalty shootout each team has five attempts and the team who scores more win the game, this project will be about this part. A player will have six attempts to score against a goalkeeper who will try to catch the ball by moving randomly to the left or right side. To win the game, the player should score all the attempts
 
 ## Functionality & MVPs
 ### In this game, users will be able to:
