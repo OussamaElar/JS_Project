@@ -1,0 +1,11 @@
+
+h1{
+      color: red;
+}
+
+canvas {
+      border: solid;
+      background-image: url(../pitch1.png);
+      background-size: 1000px;
+      background-repeat: no-repeat;
+}

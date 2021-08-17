@@ -18,6 +18,18 @@ const config = {
         exclude: /node_modules/, // don't transpile node modules
       },
       {
+        test: /\.(png|svg|jpg|jpeg|gif)$/i,
+        use: [
+          {
+            loader: 'file-loader',
+            options: {
+              name: '[name].[ext]',
+              outputPath: 'assets/images/'
+            }
+          },
+        ],
+      },
+      {
         test: /\.s?[ac]ss$/, // applies to css/scss/sass files
         use: [
           MiniCssExtractPlugin.loader, // create bundled css file

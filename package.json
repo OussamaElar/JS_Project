@@ -33,6 +33,9 @@
     "webpack-cli": "^4.7.2"
   },
   "browserslist": [
-      "defaults"
-  ]
+    "defaults"
+  ],
+  "devDependencies": {
+    "file-loader": "^6.2.0"
+  }
 }
