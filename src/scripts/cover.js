@@ -23,8 +23,8 @@ class Cover {
             let line = "";  
              for (let n = 0; n < words.length; n++)   
              {  
-                let testLine = line + words[n] + " ";  
-                let measure = context.measureText(testLine);  
+                let tLine = line + words[n] + " ";  
+                let measure = context.measureText(tLine);  
                 let txtWidth = measure.width;  
                 if (txtWidth > maxWidth) {  
                     context.fillText(line, x, y);  
@@ -32,7 +32,7 @@ class Cover {
                     y += lineHeight;  
                 }  
                 else {  
-                    line = testLine;  
+                    line = tLine;  
                 }  
             }  
             context.fillText(line, x, y);  
