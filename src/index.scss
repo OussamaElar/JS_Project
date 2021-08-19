@@ -5,8 +5,20 @@ body {
 }
 
 // navbar 
+
+.section, .title {
+      background-image: url(../grass.jpeg);
+      width: 1000px;
+      border: solid;
+      text-align: center;
+      background-color:skyblue;
+      margin-bottom: 5px;
+      
+}
+
+
 ul {
-      list-style: none;
+  list-style: none;
       padding: 0px;
       margin: 0px;
       text-align: center;
@@ -51,15 +63,6 @@ canvas {
       width: 980px;
 }
 
-.section{
-      background-image: url(../grass.jpeg);
-      width: 1000px;
-      border: solid;
-      text-align: center;
-      background-color:skyblue;
-      margin-bottom: 5px;
-      
-}
 
 // style for buttons 
 

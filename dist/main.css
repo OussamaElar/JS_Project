@@ -1,3 +1,233 @@
-body{max-width:1000px;margin:auto}ul{list-style:none;padding:0px;margin:0px;text-align:center;display:inline-block;vertical-align:top}.git,.linked,.about{max-width:30px;max-height:30px;padding:10px}li{float:left;margin:5px}li a{color:#111;text-align:center;padding:14px 16px;text-decoration:none}li a:hover{opacity:.5}canvas{border:solid;background-image:url(../pitch1.png);background-size:1000px;background-repeat:no-repeat;padding:10px;width:980px}.section{background-image:url(../grass.jpeg);width:1000px;border:solid;text-align:center;background-color:skyblue;margin-bottom:5px}.controlers{background-image:url(../grass.jpeg);display:flex;border:solid;width:1000px}.controlers{display:flex;justify-content:space-between}.reset,.easy,.med,.hard{display:inline-block;border-radius:4px;border:none;text-align:center;font-size:28px;padding:5px;width:100px;transition:all .5s;cursor:pointer;margin:5px}.reset{background-color:#000;color:#fff}.easy{background-color:#ffa07a;color:#000}.med{background-color:#33ffc8;color:#000}.hard{background-color:#ff3349;color:#000}.reset span{cursor:pointer;display:inline-block;position:relative;transition:.5s}.easy span{cursor:pointer;display:inline-block;position:relative;transition:.5s}.med span{cursor:pointer;display:inline-block;position:relative;transition:.5s}.hard span{cursor:pointer;display:inline-block;position:relative;transition:.5s}.reset span:after{content:"»";position:absolute;opacity:0;top:0;right:-20px;transition:.5s}.easy span:after{content:"»";position:absolute;opacity:0;top:0;right:-20px;transition:.5s}.med span:after{content:"»";position:absolute;opacity:0;top:0;right:-20px;transition:.5s}.hard span:after{content:"»";position:absolute;opacity:0;top:0;right:-20px;transition:.5s}.reset:hover span{padding-right:25px}.easy:hover span{padding-right:25px}.med:hover span{padding-right:25px}.hard:hover span{padding-right:25px}.reset:hover span:after{opacity:1;right:0}.med:hover span:after{opacity:1;right:0}.easy:hover span:after{opacity:1;right:0}.hard:hover span:after{opacity:1;right:0}.aboutli{position:relative;display:inline-block}.aboutli .aboutext{visibility:hidden;width:400px;background-color:#000;color:#fff;text-align:center;border-radius:6px;padding:5px 0;position:absolute;z-index:1;top:100%;left:50%;margin-left:-60px}.aboutli .aboutext::after{content:"";position:absolute;font-size:large;bottom:100%;left:15%;margin-left:-5px;border-width:5px;border-style:solid;border-color:transparent transparent #000 transparent}.aboutli:hover .aboutext{visibility:visible}
+/*!*************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[2].use[1]!./node_modules/sass-loader/dist/cjs.js!./src/index.scss ***!
+  \*************************************************************************************************************************************/
+body {
+  max-width: 1000px;
+  margin: auto;
+}
 
-/*# sourceMappingURL=main.css.map*/
+.section, .title {
+  background-image: url(../grass.jpeg);
+  width: 1000px;
+  border: solid;
+  text-align: center;
+  background-color: skyblue;
+  margin-bottom: 5px;
+}
+
+ul {
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+  text-align: center;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.git, .linked, .about {
+  max-width: 30px;
+  max-height: 30px;
+  padding: 10px;
+}
+
+li {
+  float: left;
+  margin: 5px;
+}
+
+li a {
+  color: #111;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  opacity: 0.5;
+}
+
+canvas {
+  border: solid;
+  background-image: url(../pitch1.png);
+  background-size: 1000px;
+  background-repeat: no-repeat;
+  padding: 10px;
+  width: 980px;
+}
+
+.controlers {
+  background-image: url(../grass.jpeg);
+  display: flex;
+  border: solid;
+  width: 1000px;
+}
+
+.controlers {
+  display: flex;
+  justify-content: space-between;
+}
+
+.reset, .easy, .med, .hard {
+  display: inline-block;
+  border-radius: 4px;
+  border: none;
+  text-align: center;
+  font-size: 28px;
+  padding: 5px;
+  width: 100px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.reset {
+  background-color: black;
+  color: #FFFFFF;
+}
+
+.easy {
+  background-color: #FFA07A;
+  color: black;
+}
+
+.med {
+  background-color: #33FFC8;
+  color: black;
+}
+
+.hard {
+  background-color: #FF3349;
+  color: black;
+}
+
+.reset span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.easy span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.med span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.hard span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.reset span:after {
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.easy span:after {
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.med span:after {
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.hard span:after {
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.reset:hover span {
+  padding-right: 25px;
+}
+
+.easy:hover span {
+  padding-right: 25px;
+}
+
+.med:hover span {
+  padding-right: 25px;
+}
+
+.hard:hover span {
+  padding-right: 25px;
+}
+
+.reset:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+.med:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+.easy:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+.hard:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+.aboutli {
+  position: relative;
+  display: inline-block;
+}
+
+.aboutli .aboutext {
+  visibility: hidden;
+  width: 400px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  top: 100%;
+  left: 50%;
+  margin-left: -60px;
+}
+
+.aboutli .aboutext::after {
+  content: "";
+  position: absolute;
+  font-size: large;
+  bottom: 100%;
+  left: 15%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: transparent transparent black transparent;
+}
+
+.aboutli:hover .aboutext {
+  visibility: visible;
+}
