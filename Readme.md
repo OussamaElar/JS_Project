@@ -13,7 +13,7 @@
 ![Wireframe](homepage2.png)
 
     1. Nav links include links to this project's Github repo, my LinkedIn and AngelList, and the About modal.
-    2. Game controls will include a play button to start the game and three diffent mode to choose between, and the goalkeeper will bi controlef by left and right arrow keys.
+    2. Game controls will include a play button to start the game and three diffent modes to choose between, and the goalkeeper will be controled by left and right arrow keys.
 
 # Technologies, Libraries, APIs
 ## this project will be implemeneted with the following technologies 
