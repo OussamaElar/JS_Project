@@ -1,6 +1,6 @@
 class Cover {
       constructor() {
-            this.text = "You can start the game by clicking Play button, you will be able to control the goalkeeper using left or right arrow keys in your keyboard '◀︎ ▶︎', Try to catch more than 3 shoots to win the game.";
+            this.text = "You can start the game by clicking on one of the mode buttons, you will be able to control the goalkeeper using left or right arrow keys in your keyboard '◀︎ ▶︎', Try to stop more than 3 shoots to win the game.";
             this.maxWidth = 750;
             this.lineHeight = 50;
             this.x = 500;

@@ -17,16 +17,17 @@ document.addEventListener("DOMContentLoaded", function (){
 
       const reset = document.querySelector(".reset");
       reset.addEventListener("click", e => {
-            let speed = 2;
-            const dir = Math.ceil(Math.random() * speed) * (Math.round(Math.random()) ? 1 : -1) 
-            const dy = -speed
-            const game = new Game(ball, goalkeeper, comp, ctx, dir, dy, speed)
-            game.animate();
+            document.location.reload();
+            // let speed = 2;
+            // const dir = Math.ceil(Math.random() * speed) * (Math.round(Math.random()) ? 1 : -1) 
+            // const dy = -speed
+            // const game = new Game(ball, goalkeeper, comp, ctx, dir, dy, speed)
+            // game.animate();
       });
 
       const med = document.querySelector(".med");
       med.addEventListener("click", e => {
-            let speed = 4;
+            let speed = 3;
             const dir = Math.ceil(Math.random() * speed) * (Math.round(Math.random()) ? 1 : -1) 
             const dy = -speed
             const game = new Game(ball, goalkeeper, comp, ctx, dir, dy, speed)
@@ -36,7 +37,7 @@ document.addEventListener("DOMContentLoaded", function (){
 
       const easy = document.querySelector(".easy");
       easy.addEventListener("click", e => {
-            let speed = 1;
+            let speed = 2;
             const dir = Math.ceil(Math.random() * speed) * (Math.round(Math.random()) ? 1 : -1) 
             const dy = -speed
             const game = new Game(ball, goalkeeper, comp, ctx, dir, dy, speed)
@@ -45,7 +46,7 @@ document.addEventListener("DOMContentLoaded", function (){
 
        const hard = document.querySelector(".hard");
       hard.addEventListener("click", e => {
-            let speed = 8;
+            let speed = 6;
             const dir = Math.ceil(Math.random() * speed) * (Math.round(Math.random()) ? 1 : -1) 
             const dy = -speed
             const game = new Game(ball, goalkeeper, comp, ctx, dir, dy, speed)
