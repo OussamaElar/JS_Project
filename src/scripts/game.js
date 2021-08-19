@@ -47,10 +47,10 @@ class Game {
 
       showScore() {
             if (this.goalkeeper_save > this.player_scored) {
-                  this.lAttempt = "YOU HAVE WON!!!";
+                  this.lAttempt = "YOU WON!!!";
                   this.gameOver = true;
             } else {
-                  this.lAttempt = "YOU HAVE LOST!!!";
+                  this.lAttempt = "YOU LOST!!!";
                   this.gameOver = true;
             }
             setTimeout(function () {
