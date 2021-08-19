@@ -1,11 +1,6 @@
-// import Img from './SoccerBall.png'
+
 
 class Ball {
-      constructor(dx, dy) {
-            
-            this.dx = dx;
-            this.dy = dy;
-      }
 
       drawBall(ctx) {
             ctx.save() // begin a new path 
@@ -13,24 +8,10 @@ class Ball {
             ctx.arc(Ball.x, Ball.y, Ball.radius, 0, Math.PI * 2);
             var background = new Image();
             background.src = "./SoccerBall.png";
-            // background.onload = function () {
-                  
-                  ctx.drawImage(background, Ball.x - Ball.radius, Ball.y - Ball.radius, Ball.ballHeight, Ball.ballWidth)    
-            // }
-            // ctx.clip();
-            
-      }
-
-
-      draw(ctx) {
-            
-            
-            Ball.x += this.dx;
-            Ball.y += this.dy;
-            ctx.restore();
-            // requestAnimationFrame(Ball.draw)
+            ctx.drawImage(background, Ball.x - Ball.radius, Ball.y - Ball.radius, Ball.ballHeight, Ball.ballWidth)         
       }
 }
+
 
 
 Ball.width = 1000;

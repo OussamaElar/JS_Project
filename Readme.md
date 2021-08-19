@@ -1,11 +1,11 @@
 # JS Project Proposal: Penalty Shootout Game
 # Background 
-#### Penalty Shoutout is a part of soccer game when two teams finish the game with a draw, they play a round of penalty shootout each team has five attempts and the team who scores more win the game, this project will be about this part. A player will have six attempts to score against a goalkeeper who will try to catch the ball by moving randomly to the left or right side. To win the game, the player should score all the attempts
+#### Penalty Shoutout is a part of soccer game when two teams finish the game with a draw, they play a round of penalty shootout each team has five attempts and the team who scores more win the game, this project will be about this part. A player will play the goalkepper role and try to catch at least 3 balls out of 5 attempts to win the game  
 
 ## Functionality & MVPs
 ### In this game, users will be able to:
-     1. Control the shoot power
-     2. Control the ball direction using the arrow keys 
+     1. Control the goalkeeper by moving to the right or left 
+     2. being able to choose between three different game mode  
 ### In addition, this project will include: 
      1. A production README 
      2. An About modal describing the game rules 
@@ -13,7 +13,7 @@
 ![Wireframe](homepage2.png)
 
     1. Nav links include links to this project's Github repo, my LinkedIn and AngelList, and the About modal.
-    2. Game controls will include a slider to control the power and the shooting will be performed using mouse click.
+    2. Game controls will include a play button to start the game and three diffent mode to choose between, and the goalkeeper will bi controlef by left and right arrow keys.
 
 # Technologies, Libraries, APIs
 ## this project will be implemeneted with the following technologies 
@@ -29,6 +29,12 @@ This day will be about building the logic behind the game and be able to make th
 ## Tuesday
 If didn't get what I’m hoping for I will continue and make sure I will make it work, and I will work also on the controllers.
 ## Wednesday
-Finish implementing user controls and making the goalkeeper move randomly and stops the ball, also finishing up all the styling needed.
+Finish implementing user controls and making the ball move randomly and control the goalkeeper position, also finishing up all the styling needed.
 ## Thursday Morning
 Deploy to GitHub.
+# References 
+https://developer.mozilla.org/en-US/docs/Games/Tutorials/2D_Breakout_game_pure_JavaScript/Bounce_off_the_walls
+https://developer.mozilla.org/en-US/docs/Games/Tutorials/2D_Breakout_game_pure_JavaScript/Move_the_ball
+https://stackoverflow.com/questions/37910307/how-to-set-a-delay-after-each-shot-in-html-5-js-canvas-football-penalty-game
+
+
