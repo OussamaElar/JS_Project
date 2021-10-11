@@ -28,7 +28,6 @@ class Game {
 
       keyDownHandler (e) {
             if (e.keyCode == 39) {
-                  console.log(e.keyCode);
                   this.rightKey = true;
             }
             else if (e.keyCode == 37) {
@@ -70,7 +69,6 @@ class Game {
             GoalKeeper.goalPosX = (GoalKeeper.width - 350) / 2;
             GoalKeeper.goalPosY = 0;
             const dir = Math.ceil(Math.random() * this.speed) * (Math.round(Math.random()) ? 1 : -1)
-            console.log(dir);
             this.dx = dir;
             this.dy = -this.speed
 
@@ -91,9 +89,9 @@ class Game {
             this.drawPitch()
 
             if (this.rightKey && GoalKeeper.posKeeperX < GoalKeeper.width - GoalKeeper.goalWidth) {
-                  GoalKeeper.posKeeperX += 6
+                  GoalKeeper.posKeeperX += 4
             } else if (this.leftKey && GoalKeeper.posKeeperX > GoalKeeper.goalPosX - 40) {
-                  GoalKeeper.posKeeperX -= 6
+                  GoalKeeper.posKeeperX -= 4
             }
 
             

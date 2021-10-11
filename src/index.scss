@@ -48,8 +48,8 @@ li a {
       padding: 14px 16px;
       text-decoration: none;
 }
-li a:hover {
-      opacity: 0.5;
+a:hover {
+      opacity: 1;
 }
 
 // canvas style 
@@ -228,6 +228,7 @@ canvas {
   top: 100%;
   left: 50%;
   margin-left: -60px;
+  
 }
 
 .aboutli .aboutext::after {
@@ -240,10 +241,12 @@ canvas {
   border-width: 5px;
   border-style: solid;
   border-color: transparent transparent black transparent;
+  
 }
 
 .aboutli:hover .aboutext {
   visibility: visible;
+  
 }
 
 

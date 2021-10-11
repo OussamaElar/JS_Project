@@ -42,8 +42,8 @@ li a {
   text-decoration: none;
 }
 
-li a:hover {
-  opacity: 0.5;
+a:hover {
+  opacity: 1;
 }
 
 canvas {
