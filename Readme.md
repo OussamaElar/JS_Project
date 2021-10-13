@@ -4,14 +4,14 @@
 
 ## [Live Site](https://oussamaelar.github.io/JS_Project/)
 
-![](gifGame1.gif)
+![!](gifGame2.gif)
 
 ## Functionality & MVPs
 ### In this game, users will be able to:
      1. Control the goalkeeper by moving to the right or left 
      2. being able to choose between three different game mode  
 
-![](gifGame.gif)
+![!](gifGame3.gif)
 
 ### In addition, this project will include: 
      1. A production README 
