@@ -3,14 +3,21 @@
 #### Penalty Shoutout is a part of soccer game when two teams finish the game with a draw, they play a round of penalty shootout each team has five attempts and the team who scores more win the game, this project will be about this part. A player will play the goalkepper role and try to catch at least 3 balls out of 5 attempts to win the game  
 
 ## [Live Site](https://oussamaelar.github.io/JS_Project/)
+
+![](gifGame1.gif)
+
 ## Functionality & MVPs
 ### In this game, users will be able to:
      1. Control the goalkeeper by moving to the right or left 
      2. being able to choose between three different game mode  
+
+![](gifGame.gif)
+
 ### In addition, this project will include: 
      1. A production README 
      2. An About modal describing the game rules 
 # Wireframes 
+
 ![Wireframe](homepage2.png)
 
     1. Nav links include links to this project's Github repo, my LinkedIn and AngelList, and the About modal.
