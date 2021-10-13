@@ -29,7 +29,7 @@
     2. Webpack to bundle JavaScript code 
     3. npm to manage project dependencies
 
-# Code Snippet
+# Code Snippets
 Game Class is where the game logic happens, the ball is moving in a random direction using this line of code:   `Math.ceil(Math.random() * this.speed) * (Math.round(Math.random()) ? 1 : -1)`,  instead of using an array of predefined directions, I used `Math.random()`,  with `Math.ceil`, that returns the next largest integer, which is going to be multiplied by the returned value of this trinary `(Math.round(Math.random()) ? 1 : -1)`, that controls whether the direction will be a negative or positive value, which basically means that the ball shot will go left, right or middle, what does make this piece of code unique is the ability to avoid hard coded directions, you will need to provide a single const which is the ball speed and it's going to do the rest for you.      
 
 ``` javaScript
